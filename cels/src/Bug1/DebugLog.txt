@@ -1,0 +1,4 @@
+1. Identified function calls to Game.java from Main.java
+2. In Play-round, identified the functions impacting user balance
+3. Take bet function decreses the balance by 5, everytime but it is not subsequently increased.
+4. Winnings variable is always 5 units less than the actual exopected amount.
