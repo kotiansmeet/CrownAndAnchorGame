@@ -78,7 +78,6 @@ public class Main {
         } //while true
         
         System.out.println(String.format("Overall win rate = %.1f%%", (float)(totalWins * 100) / (totalWins + totalLosses)));
-        System.out.println("Changed");
 	}
 
 }
