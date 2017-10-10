@@ -1,0 +1,6 @@
+1. The initial dice rolls are random. The first die value selected here is “CLUB”.
+2. The second die value selected at random is “HEART”.
+3. The third dice value is “HEART”.
+4. In subsequent rolls, the same dice values are retrieved, in the same order as previously, because Dice.value is never set to the new value when Dice.roll() is called.
+5. The subsequent dice value is retrieved in sequence.
+6. The Dice.roll() method is edited to remove the unused return value, and ensure that a new value is assigned to the Dice.value variable. 
